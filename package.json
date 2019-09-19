@@ -1,0 +1,26 @@
+{
+  "name": "@elzup/renovate-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base",
+        ":automergeLinters",
+        ":automergeMinor",
+        ":automergeTypes",
+        ":ignoreModulesAndTests",
+        ":label(renovate)",
+        ":maintainLockFilesMonthly",
+        ":rebaseStalePrs",
+        ":timezone(Asia/Tokyo)",
+        "group:allNonMajor",
+        "group:definitelyTyped",
+        "group:linters",
+        "group:monorepos",
+        "schedule:weekly"
+      ]
+    }
+  }
+}
