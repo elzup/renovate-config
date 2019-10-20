@@ -19,7 +19,7 @@
         "group:definitelyTyped",
         "group:linters",
         "group:monorepos",
-        "schedule:weekly"
+        "schedule:monthly"
       ]
     }
   }
