@@ -1,0 +1,10 @@
+{
+  "extends": ["@elzup"],
+  "schedule": ["every 6 months on the first day of the month"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ]
+}
