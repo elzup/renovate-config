@@ -10,6 +10,7 @@
         ":automergeLinters",
         ":automergeMinor",
         ":automergeTypes",
+        ":disableDependencyDashboard",
         ":ignoreModulesAndTests",
         ":label(renovate)",
         ":maintainLockFilesMonthly",
