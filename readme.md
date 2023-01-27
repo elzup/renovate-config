@@ -1,12 +1,20 @@
 ## @elzup/renovate-config
 
-## Setup
+## Setup renovate.json
 
-renovate.json
+** Application:**
 
 ```json
 {
   "extends": ["@elzup"]
+}
+```
+
+** Pure library:**
+
+```json
+{
+  "extends": ["@elzup/renovate-config:nodep"]
 }
 ```
 
