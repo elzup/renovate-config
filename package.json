@@ -26,7 +26,8 @@
         "group:linters",
         "group:monorepos",
         "schedule:monthly"
-      ]
+      ],
+      "minimumReleaseAge": "7 days"
     }
   }
 }
